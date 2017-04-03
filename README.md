@@ -5,15 +5,23 @@
 1. 首先写一个sh脚本，比如命名为 item.sh
 <code>
 #!/usr/bin/expect -f
+
 set user alphagooo
+
 set host 10.2.0.3
+
 set password 123456
+
 set timeout -1
 
 spawn ssh $user@$host
+
 expect "*assword:*"
+
 send "$password:\r"
+
 interact
+
 expect eof
 </code>
 
