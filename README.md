@@ -1,2 +1,2 @@
 # alphagooo-iterm
-记录iterm的一些使用技巧，不定期更新。
+个人iterm使用技巧累积，不定期更新。
